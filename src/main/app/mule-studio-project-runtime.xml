@@ -10,6 +10,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
     <flow name="mule-studio-project-runtimeFlow">
         <http:listener config-ref="HTTP_Listener_Configuration" path="studio" doc:name="HTTP"/>
         <set-payload value="my first studio project deployed in standalone runtime" doc:name="Set Payload"/>
-        <logger message="my first studio project deployed in standalone runtime." level="INFO" doc:name="Logger"/>
+        <logger message="my first studio project deployed in standalone runtime..." level="INFO" doc:name="Logger"/>
     </flow>
 </mule>
